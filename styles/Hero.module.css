@@ -1,0 +1,28 @@
+.content{
+    /* background: url('../public/woman_pc.jpg') no-repeat center center/cover; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 1rem 1rem;
+    color: white;
+    height: 85dvh;
+    /* width: 100vw; */
+    opacity: 0.8;
+}
+
+.content > a>button{
+    align-self: flex-start;
+    color: white;
+    border-radius: 20px;
+    border-color: white;
+}
+.content >a> button:hover{
+    color: black;
+    background-color: white;
+}
+
+.content  :blank{
+    margin: auto;
+    border: 20vh;
+    height: 40vh;
+}
